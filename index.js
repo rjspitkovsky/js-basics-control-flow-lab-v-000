@@ -18,6 +18,18 @@ let phrase = (city === 'NYC') ? "Ok, sounds good." : "No go.";
 return phrase;
 }
 
-function switchOnCharmFromTip() {
-  
+function switchOnCharmFromTip(tip) {
+  let response
+  switch (tip) {
+    case tip === 'generous':
+    response = "Thank you so much."
+    break;
+    case tip === "not as generous":
+    response = "Thank you."
+    break;
+    default:
+    response = 'Bye.'
+    break;
+  }
+  return response;
 }
