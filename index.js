@@ -14,6 +14,7 @@ function scuberGreetingForFeet (feet) {
 }
 
 function ternaryCheckCity(city) {
-let phrase = (city = 'NYC') ? "Ok, sounds good." : "No go.";
+  let best_city = 'NYC'
+let phrase = (city = best_city) ? "Ok, sounds good." : "No go.";
 return phrase;
 }
